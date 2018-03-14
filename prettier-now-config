@@ -1,0 +1,20 @@
+ // prettier  doc: https://marketplace.visualstudio.com/items?itemName=remimarsal.prettier-now
+
+  "prettier.semi": false, // 格式化去掉分号 true - Add a semicolon at the end of every statement. false - Only add semicolons at the beginning of lines that may introduce ASI failures.
+  "prettier.bracketSpacing": true, // 数组首末位元素空格  true - Example: [ foo: bar ] false - Example: [foo: bar].
+  "prettier.bracesSpacing": true,// 对象首末位元素空格 true - Example: { foo: bar } false - Example: {foo: bar}.
+  "prettier.useTabs": false, // 使用tab退格
+  "prettier.trailingComma": "none", // 尾逗号（es5 ：objects, arrays, etc.）
+  "prettier.printWidth": 120, // 代码一行长度小于120
+  "prettier.tabWidth": 2, // tab相当4空格
+  "prettier.singleQuote": true, // 是否使用单引号
+  "prettier.jsxSingleQuote": false, // jsx是否使用单引号
+  "prettier.breakProperty": false, // 是否允许对象的属性和值不在一行显示
+  "prettier.arrowParens": true, // 箭头函数的参数添加括号
+  "prettier.arrayExpand": false, // 将数组展开为每行一个项目
+  "prettier.flattenTernaries": false, // 以平面样式格式化三元运算符
+  "prettier.breakBeforeElse": false, // 把else子句放在一个新行中
+  "prettier.spaceBeforeFunctionParen": false, // 在函数括号之前放置一个空格
+  "prettier.alignObjectProperties": false, // 在多行对象文字中对齐冒号。如果对象计算了属性名称，则不做任何事
+  "prettier.jsxBracketSameLine": false, // 如果为true，则将多行jsx元素的>放在最后一行的末尾，而不是单独放在下一行。
+  "prettier.noSpaceEmptyFn": false, // 空的匿名函数体之前省略空格。
